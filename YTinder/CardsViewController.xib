@@ -19,7 +19,7 @@
                     <rect key="frame" x="0.0" y="-2" width="320" height="65"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                 </imageView>
-                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Tgt-V1-DPN" customClass="DraggableImageView">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ryan" id="Tgt-V1-DPN" customClass="DraggableImageView">
                     <rect key="frame" x="20" y="86" width="280" height="280"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.24171798517554655" green="1" blue="0.86716812889408756" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,6 +45,7 @@
     <resources>
         <image name="actionbtns" width="320" height="108"/>
         <image name="nav_bar" width="320" height="65"/>
+        <image name="ryan" width="449" height="514"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

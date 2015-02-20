@@ -18,7 +18,7 @@
                     <rect key="frame" x="-1" y="-1" width="320" height="65"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                 </imageView>
-                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="X1W-Cp-luD">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ryan" id="X1W-Cp-luD">
                     <rect key="frame" x="10" y="84" width="300" height="300"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.24171798520000001" green="1" blue="0.86716812889999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -39,6 +39,7 @@
     </objects>
     <resources>
         <image name="nav_bar2" width="320" height="65"/>
+        <image name="ryan" width="449" height="514"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
