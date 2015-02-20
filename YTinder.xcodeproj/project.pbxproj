@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		8B191E031A96D65B008BF06B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B191E021A96D65B008BF06B /* main.m */; };
 		8B191E061A96D65B008BF06B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B191E051A96D65B008BF06B /* AppDelegate.m */; };
-		8B191E091A96D65B008BF06B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B191E081A96D65B008BF06B /* ViewController.m */; };
-		8B191E0C1A96D65B008BF06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B191E0A1A96D65B008BF06B /* Main.storyboard */; };
 		8B191E0E1A96D65B008BF06B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B191E0D1A96D65B008BF06B /* Images.xcassets */; };
 		8B191E111A96D65B008BF06B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B191E0F1A96D65B008BF06B /* LaunchScreen.xib */; };
 		8B191E1D1A96D65B008BF06B /* YTinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B191E1C1A96D65B008BF06B /* YTinderTests.m */; };
+		8B191E291A96D6A1008BF06B /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B191E271A96D6A1008BF06B /* CardsViewController.m */; };
+		8B191E2A1A96D6A1008BF06B /* CardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B191E281A96D6A1008BF06B /* CardsViewController.xib */; };
+		8B2212521A96DE2700D81E61 /* DraggableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2212511A96DE2700D81E61 /* DraggableImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		8B191E021A96D65B008BF06B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B191E041A96D65B008BF06B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B191E051A96D65B008BF06B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B191E071A96D65B008BF06B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B191E081A96D65B008BF06B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8B191E0B1A96D65B008BF06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B191E0D1A96D65B008BF06B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B191E101A96D65B008BF06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8B191E161A96D65B008BF06B /* YTinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B191E1B1A96D65B008BF06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B191E1C1A96D65B008BF06B /* YTinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTinderTests.m; sourceTree = "<group>"; };
+		8B191E261A96D6A1008BF06B /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		8B191E271A96D6A1008BF06B /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		8B191E281A96D6A1008BF06B /* CardsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardsViewController.xib; sourceTree = "<group>"; };
+		8B2212501A96DE2700D81E61 /* DraggableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableImageView.h; sourceTree = "<group>"; };
+		8B2212511A96DE2700D81E61 /* DraggableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				8B191E041A96D65B008BF06B /* AppDelegate.h */,
 				8B191E051A96D65B008BF06B /* AppDelegate.m */,
-				8B191E071A96D65B008BF06B /* ViewController.h */,
-				8B191E081A96D65B008BF06B /* ViewController.m */,
-				8B191E0A1A96D65B008BF06B /* Main.storyboard */,
 				8B191E0D1A96D65B008BF06B /* Images.xcassets */,
 				8B191E0F1A96D65B008BF06B /* LaunchScreen.xib */,
 				8B191E001A96D65B008BF06B /* Supporting Files */,
+				8B191E261A96D6A1008BF06B /* CardsViewController.h */,
+				8B191E271A96D6A1008BF06B /* CardsViewController.m */,
+				8B191E281A96D6A1008BF06B /* CardsViewController.xib */,
+				8B2212501A96DE2700D81E61 /* DraggableImageView.h */,
+				8B2212511A96DE2700D81E61 /* DraggableImageView.m */,
 			);
 			path = YTinder;
 			sourceTree = "<group>";
@@ -199,8 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B191E0C1A96D65B008BF06B /* Main.storyboard in Resources */,
 				8B191E111A96D65B008BF06B /* LaunchScreen.xib in Resources */,
+				8B191E2A1A96D6A1008BF06B /* CardsViewController.xib in Resources */,
 				8B191E0E1A96D65B008BF06B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B191E091A96D65B008BF06B /* ViewController.m in Sources */,
 				8B191E061A96D65B008BF06B /* AppDelegate.m in Sources */,
+				8B191E291A96D6A1008BF06B /* CardsViewController.m in Sources */,
+				8B2212521A96DE2700D81E61 /* DraggableImageView.m in Sources */,
 				8B191E031A96D65B008BF06B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B191E0A1A96D65B008BF06B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B191E0B1A96D65B008BF06B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B191E0F1A96D65B008BF06B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +410,7 @@
 				8B191E221A96D65B008BF06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B191E231A96D65B008BF06B /* Build configuration list for PBXNativeTarget "YTinderTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +419,7 @@
 				8B191E251A96D65B008BF06B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

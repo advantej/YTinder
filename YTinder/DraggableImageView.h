@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DraggableImageView.h
 //  YTinder
 //
 //  Created by Tejas Lagvankar on 2/19/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DraggableImageView : UIImageView
 
 @end
-
