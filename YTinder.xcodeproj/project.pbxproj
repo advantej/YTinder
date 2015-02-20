@@ -15,6 +15,8 @@
 		8B191E291A96D6A1008BF06B /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B191E271A96D6A1008BF06B /* CardsViewController.m */; };
 		8B191E2A1A96D6A1008BF06B /* CardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B191E281A96D6A1008BF06B /* CardsViewController.xib */; };
 		8B2212521A96DE2700D81E61 /* DraggableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2212511A96DE2700D81E61 /* DraggableImageView.m */; };
+		8B2212561A96E12F00D81E61 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2212541A96E12F00D81E61 /* ProfileViewController.m */; };
+		8B2212571A96E12F00D81E61 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B2212551A96E12F00D81E61 /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		8B191E281A96D6A1008BF06B /* CardsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardsViewController.xib; sourceTree = "<group>"; };
 		8B2212501A96DE2700D81E61 /* DraggableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableImageView.h; sourceTree = "<group>"; };
 		8B2212511A96DE2700D81E61 /* DraggableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableImageView.m; sourceTree = "<group>"; };
+		8B2212531A96E12F00D81E61 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		8B2212541A96E12F00D81E61 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		8B2212551A96E12F00D81E61 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,9 @@
 				8B191E281A96D6A1008BF06B /* CardsViewController.xib */,
 				8B2212501A96DE2700D81E61 /* DraggableImageView.h */,
 				8B2212511A96DE2700D81E61 /* DraggableImageView.m */,
+				8B2212531A96E12F00D81E61 /* ProfileViewController.h */,
+				8B2212541A96E12F00D81E61 /* ProfileViewController.m */,
+				8B2212551A96E12F00D81E61 /* ProfileViewController.xib */,
 			);
 			path = YTinder;
 			sourceTree = "<group>";
@@ -206,6 +214,7 @@
 			files = (
 				8B191E111A96D65B008BF06B /* LaunchScreen.xib in Resources */,
 				8B191E2A1A96D6A1008BF06B /* CardsViewController.xib in Resources */,
+				8B2212571A96E12F00D81E61 /* ProfileViewController.xib in Resources */,
 				8B191E0E1A96D65B008BF06B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +237,7 @@
 				8B191E291A96D6A1008BF06B /* CardsViewController.m in Sources */,
 				8B2212521A96DE2700D81E61 /* DraggableImageView.m in Sources */,
 				8B191E031A96D65B008BF06B /* main.m in Sources */,
+				8B2212561A96E12F00D81E61 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

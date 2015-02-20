@@ -4,9 +4,8 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardsViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController">
             <connections>
-                <outlet property="cardImageView" destination="Tgt-V1-DPN" id="NHX-b2-N2x"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,36 +14,31 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="nav_bar" id="xnx-bp-pda">
-                    <rect key="frame" x="0.0" y="-2" width="320" height="65"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="nav_bar2" id="BcQ-Ir-bxa">
+                    <rect key="frame" x="-1" y="-1" width="320" height="65"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                 </imageView>
-                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Tgt-V1-DPN" customClass="DraggableImageView">
-                    <rect key="frame" x="20" y="86" width="280" height="280"/>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="X1W-Cp-luD">
+                    <rect key="frame" x="10" y="84" width="300" height="300"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.24171798517554655" green="1" blue="0.86716812889408756" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.24171798520000001" green="1" blue="0.86716812889999995" alpha="1" colorSpace="calibratedRGB"/>
                     <gestureRecognizers/>
                     <connections>
-                        <outletCollection property="gestureRecognizers" destination="PjP-Pj-bkb" appends="YES" id="ift-iZ-e87"/>
+                        <outletCollection property="gestureRecognizers" destination="l17-QG-j5r" appends="YES" id="hfY-au-FWk"/>
                     </connections>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="actionbtns" id="UBu-Cp-TEF">
-                    <rect key="frame" x="0.0" y="460" width="320" height="108"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="413" y="384"/>
+            <point key="canvasLocation" x="340" y="384"/>
         </view>
-        <tapGestureRecognizer id="PjP-Pj-bkb">
+        <tapGestureRecognizer id="l17-QG-j5r">
             <connections>
-                <action selector="onImageTapped:" destination="-1" id="L7b-U1-n9a"/>
+                <action selector="onImageTapped:" destination="-1" id="oln-U7-X84"/>
             </connections>
         </tapGestureRecognizer>
     </objects>
     <resources>
-        <image name="actionbtns" width="320" height="108"/>
-        <image name="nav_bar" width="320" height="65"/>
+        <image name="nav_bar2" width="320" height="65"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
